@@ -5,7 +5,7 @@ FROM python:3.10-slim
 WORKDIR /app
 
 # Salin file requirements.txt dan install dependencies
-COPY requirement.txt /app/
+COPY requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Salin seluruh aplikasi ke dalam container
