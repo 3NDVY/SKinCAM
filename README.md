@@ -1,1 +1,1 @@
-# SKinCAM
+# SkinCAM Analyze
